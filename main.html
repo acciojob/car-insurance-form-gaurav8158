@@ -8,9 +8,8 @@
 
 <body>
 	<!-- the entire body must be written by student -->
-		<method>
 			<div class="box">
-			<form method="frm">
+			<form method="post">
 				<h1 class="head"> Car Insurance Form</h1>
 				<label for="name">Name8*</label>
 		<input type="text" id="name" name="nam" placeholder="enter name" required>
@@ -23,7 +22,7 @@
 		<input type="radio" vale="female" name="gender" required>female
 					<br>
 		<label for="cars">Car Brands</label>
-		<select for="brand" >
+		<select for="brand" id="cars">
 			<option id="cars" name="cars">BMW</option>
 			<option id="cars" name="cars">Audi</option>
 			<option id="cars" name="cars">Mercedez</option>
@@ -36,12 +35,11 @@
 		<input type="date" name="dop" id="dop" required>
 					<br>
 		<label  for="password">Password*</label>
-		<input type="password" placeholder="enter password" name="password" required>
+		<input type="password" placeholder="enter password" name="password" id="password" required>
 					<br>
 		<button id="button" type="submit" class=btn>submit</button>
 			</form>
 		</div>
-		</method>
 
     <script type="text/javascript" src="./script.js">
 </script>
